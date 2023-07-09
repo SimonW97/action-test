@@ -30,7 +30,7 @@ jobs:
         with:
           repo_token: ${{ secrets.CUSTOM_TOKEN }}
           file: dist/index.js
-          asset_name: index
+          asset_name: index.js
           tag: ${{ github.ref }}
           overwrite: true
           body: "Current release"
